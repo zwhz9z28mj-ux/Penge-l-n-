@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PengeLån – Ansøg om finansiering</title>
+  <meta name="description" content="PengeLån – digital låneansøgning og information om finansiering.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="#top">Penge<span>Lån</span></a>
+    <nav>
+      <a href="#fordele">Fordele</a>
+      <a href="#saadan">Sådan fungerer det</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn-small" href="#ansoeg">Ansøg online</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">DIGITAL LÅNEANSØGNING</p>
+      <h1>Finansiering, der passer til din situation.</h1>
+      <p class="lead">Indsend din ansøgning online og få dine muligheder vurderet på baggrund af de oplysninger, du giver.</p>
+      <div class="actions">
+        <a class="btn" href="#ansoeg">Start ansøgning</a>
+        <a class="btn btn-ghost" href="#saadan">Læs mere</a>
+      </div>
+      <p class="fine">En ansøgning er ikke en garanti for godkendelse.</p>
+    </div>
+    <div class="card hero-card">
+      <h2>Ansøg online</h2>
+      <p>Det tager kun få minutter at udfylde de grundlæggende oplysninger.</p>
+      <div class="steps-mini">
+        <div><b>1</b><span>Udfyld formularen</span></div>
+        <div><b>2</b><span>Ansøgningen vurderes</span></div>
+        <div><b>3</b><span>Gennemgå eventuelle vilkår</span></div>
+      </div>
+      <a class="btn full" href="#ansoeg">Gå til ansøgning</a>
+    </div>
+  </div>
+</section>
+
+<section id="fordele" class="section">
+  <div class="container">
+    <p class="eyebrow">OVERSKUELIGT</p>
+    <h2>En enkel digital proces</h2>
+    <div class="features">
+      <article class="feature"><div class="icon">01</div><h3>Online ansøgning</h3><p>Indsend de nødvendige oplysninger via formularen.</p></article>
+      <article class="feature"><div class="icon">02</div><h3>Tydelig information</h3><p>Eventuelle konkrete lånevilkår skal fremgå klart, før en aftale indgås.</p></article>
+      <article class="feature"><div class="icon">03</div><h3>Individuel vurdering</h3><p>En eventuel kreditbeslutning afhænger af en individuel vurdering og gældende krav.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="saadan" class="section muted">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">SÅDAN FUNGERER DET</p>
+      <h2>Fra ansøgning til beslutning</h2>
+      <p>Du udfylder formularen med de oplysninger, der er nødvendige for at behandle din henvendelse. Herefter vurderes ansøgningen efter de regler og kriterier, der gælder for den konkrete kreditudbyder.</p>
+    </div>
+    <ol class="timeline">
+      <li><b>Udfyld ansøgningen</b><span>Angiv dine kontakt- og økonomiske oplysninger.</span></li>
+      <li><b>Vurdering</b><span>Oplysningerne gennemgås som led i en eventuel kreditvurdering.</span></li>
+      <li><b>Vilkår</b><span>Hvis der kan tilbydes kredit, præsenteres de relevante vilkår til gennemgang.</span></li>
+      <li><b>Aftale</b><span>En eventuel aftale indgås først efter accept af de konkrete vilkår.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="ansoeg" class="section">
+  <div class="container form-wrap">
+    <div>
+      <p class="eyebrow">ANSØGNING</p>
+      <h2>Indsend din ansøgning</h2>
+      <p>Udfyld felterne nedenfor. Formularen åbner din e-mailklient og forbereder en besked til <strong>pengelan7@gmail.com</strong>.</p>
+      <p class="warning"><strong>Vigtigt:</strong> Denne demo sender ikke oplysninger til en server. Til en rigtig låneansøgning bør personfølsomme oplysninger ikke indsamles via almindelig e-mail. Brug en sikker, lovlig løsning og få privatlivs- og kreditdokumentationen på plads først.</p>
+    </div>
+    <form id="loanForm" class="card form">
+      <label>Fulde navn<input name="name" required autocomplete="name"></label>
+      <label>E-mail<input type="email" name="email" required autocomplete="email"></label>
+      <label>Telefon<input name="phone" required autocomplete="tel"></label>
+      <label>Ønsket lånebeløb (DKK)<input type="number" name="amount" min="1" required></label>
+      <label>Ønsket tilbagebetalingsperiode
+        <select name="term" required>
+          <option value="">Vælg</option><option>12 måneder</option><option>24 måneder</option><option>36 måneder</option><option>48 måneder</option><option>60 måneder</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" required> Jeg accepterer, at mine oplysninger bruges til at behandle min henvendelse.</label>
+      <button class="btn full" type="submit">Fortsæt</button>
+      <p class="fine">Indsendelse er ikke en garanti for kredit eller udbetaling.</p>
+    </form>
+  </div>
+</section>
+
+<section id="faq" class="section muted">
+  <div class="container narrow">
+    <p class="eyebrow">FAQ</p>
+    <h2>Ofte stillede spørgsmål</h2>
+    <details><summary>Er en ansøgning en garanti for et lån?</summary><p>Nej. En ansøgning er ikke en garanti for godkendelse. En eventuel kredit kræver en relevant vurdering og opfyldelse af gældende krav.</p></details>
+    <details><summary>Hvor kan jeg få oplysninger om renter og ÅOP?</summary><p>Konkrete renter, ÅOP, gebyrer, løbetid og øvrige omkostninger skal oplyses korrekt og tydeligt i forbindelse med det konkrete kredittilbud.</p></details>
+    <details><summary>Hvordan kontakter jeg PengeLån?</summary><p>Du kan kontakte os på <a href="mailto:pengelan7@gmail.com">pengelan7@gmail.com</a>.</p></details>
+  </div>
+</section>
+
+<section id="kontakt" class="section contact">
+  <div class="container contact-box">
+    <div><p class="eyebrow">KONTAKT</p><h2>Har du spørgsmål?</h2><p>Skriv til os på <a href="mailto:pengelan7@gmail.com">pengelan7@gmail.com</a>.</p></div>
+    <a class="btn" href="mailto:pengelan7@gmail.com">Send e-mail</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><div class="logo">Penge<span>Lån</span></div><p>Digital information og ansøgningsside.</p></div>
+    <div><h4>Information</h4><a href="#">Privatlivspolitik</a><a href="#">Vilkår og betingelser</a><a href="#">Cookiepolitik</a></div>
+    <div><h4>Kontakt</h4><a href="mailto:pengelan7@gmail.com">pengelan7@gmail.com</a></div>
+  </div>
+  <div class="container copyright">© <span id="year"></span> PengeLån. Alle rettigheder forbeholdes.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
